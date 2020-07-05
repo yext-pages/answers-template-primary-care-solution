@@ -29,7 +29,7 @@
     },
     **/
     "SearchBar": {
-      "placeholderText": "Search" // The placeholder text in the answers search bar
+      "placeholderText": "Search frequently asked questions" // The placeholder text in the answers search bar
     },
     "VerticalResults": {
       "noResults": {

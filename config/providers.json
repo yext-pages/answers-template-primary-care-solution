@@ -19,17 +19,24 @@
       "privacyPolicyUrl": "" // The fully qualified URL to the privacy policy
     },
     **/
-    /**
+    
     "Facets": {
       "title": "", // The title to display above the facets
       "expand": true, // Allow the user to expand and collapse the facets
       "showMore": true, // Display a link to see more facet options within a facet
-      "searchOnChange": true // Will automatically run a search as facets are selected or unselected. Set to false to only trigger updates with an Apply button. 
+      "searchOnChange": true, // Will automatically run a search as facets are selected or unselected. Set to false to only trigger updates with an Apply button. 
+      "fields": {
+        "builtin.medicalSpecialty": {
+            "searchable": true,
+            "searchLabelText": "Search our specialties",
+            "placeholderText": "Search"       
+        }
+     }
       // Additional options are available in the documentation
     },
-    **/
+    
     "SearchBar": {
-      "placeholderText": "Search" // The placeholder text in the answers search bar
+      "placeholderText": "Search our providers by location, specialty and more" // The placeholder text in the answers search bar
     },
     "VerticalResults": {
       "noResults": {
@@ -52,7 +59,7 @@
       // "label": "", // The name of the vertical in the section header and the navigation bar
       // "verticalLimit": 15, // The result count limit for vertical search
       // "universalLimit": 5, // The result count limit for universal search
-      "cardType": "location-standard", // The name of the card to use - e.g. accordion, location, customcard 
+      "cardType": "professional-standard", // The name of the card to use - e.g. accordion, location, customcard 
       "icon": "person" // The icon to use on the card for this vertical
     }
   }

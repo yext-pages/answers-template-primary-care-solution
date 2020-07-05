@@ -19,17 +19,24 @@
       "privacyPolicyUrl": "" // The fully qualified URL to the privacy policy
     },
     **/
-    /**
+  
     "Facets": {
       "title": "", // The title to display above the facets
       "expand": true, // Allow the user to expand and collapse the facets
       "showMore": true, // Display a link to see more facet options within a facet
-      "searchOnChange": true // Will automatically run a search as facets are selected or unselected. Set to false to only trigger updates with an Apply button. 
+      "searchOnChange": true, // Will automatically run a search as facets are selected or unselected. Set to false to only trigger updates with an Apply button. 
+      "fields": {
+        "builtin.medicalSpecialty": {
+            "searchable": true,
+            "searchLabelText": "Search our specialties",
+            "placeholderText": "Search"       
+        }
+      }
       // Additional options are available in the documentation
     },
-    **/
+  
     "SearchBar": {
-      "placeholderText": "Search" // The placeholder text in the answers search bar
+      "placeholderText": "Search our Facilities by location, specialty and more" // The placeholder text in the answers search bar
     },
     "VerticalResults": {
       "noResults": {
