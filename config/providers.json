@@ -16,8 +16,7 @@
       "entityId": "", // Set the ID of the entity to use for Q&A submissions, must be of entity type "Organization"
       "privacyPolicyUrl": "" // The fully qualified URL to the privacy policy
     },
-    **/
-    
+    **/   
     "Facets": {
       "title": "", // The title to display above the facets
       "expand": true, // Allow the user to expand and collapse the facets
@@ -32,18 +31,23 @@
      }
       // Additional options are available in the documentation
     },
-    
-    "SearchBar": {
-      "placeholderText": "Search our providers by location, specialty and more", // The placeholder text in the answers search bar
-      "allowEmptySearch": true
+    "FilterLink": {
+      "changeFiltersText": "sorts and filters", // Text that displays by default
+      "resetFiltersText": "reset filters", // Text when filters are applied
+      "clearSearchText": "clear search" // Text when there are no results, conducts an empty search
+    },
+    "AppliedFilters": {
+      "removable": true
     },
     "VerticalResults": {
       "noResults": {
         "displayAllResults": true // Optional, whether to display all results in the vertical when no results are found.
       },
-      "appliedFilters": {
-        "removable": true
-      }
+      "hideResultsHeader": true
+    },
+    "SearchBar": {
+      "placeholderText": "Search", // The placeholder text in the answers search bar
+      "allowEmptySearch": true // Allows users to submit an empty search in the searchbar
     },
     "Pagination": {
        "noResults": {
